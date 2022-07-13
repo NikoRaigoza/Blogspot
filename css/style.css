@@ -13,6 +13,19 @@ body {
     place-items: center;
     padding: 0;
 }
+#cabecera {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#cabecera h1 {
+    color: rgb(57, 57, 57);
+    margin-left: 15px;
+    margin-top: 0;
+}
 #warning {
     display: flex;
     flex-direction: column;
@@ -27,7 +40,7 @@ h1 {
     margin-bottom: 0;
     text-align: center;
 }
-h1::after {
+.experimento:after {
     content: "🫠";
 }
 .parrafo {
