@@ -34,4 +34,11 @@ h1::after {
     color: yellow;
     font-size: larger;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo + p {
+    color: white;
+    font-size: larger;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
 }
